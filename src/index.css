@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* input box */
+.input-box{
+    --tw-border-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+  }
+  
+  .input-box:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(253, 61, 87, var(--tw-border-opacity));
+  }
+  
+  .input-box{
+    border-radius: 0.25rem;
+    border-width: 1px;
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .input-box::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-placeholder-opacity));
+  }
+  
+  .input-box:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-placeholder-opacity));
+  }
+  
+  .input-box::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-placeholder-opacity));
+  }
+  
+  .input-box:focus{
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  }
+  
+  .input-box{
+    --tw-text-opacity: 1;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+    width: 100%;
+  }
